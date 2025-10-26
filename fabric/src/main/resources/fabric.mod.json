@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "slash_unlimited",
   "version": "${version}",
-  "name": "slash_unlimited",
+  "name": "/unlimited",
   "description": "Command limits no more.",
   "authors": [
     "DogeisCut"

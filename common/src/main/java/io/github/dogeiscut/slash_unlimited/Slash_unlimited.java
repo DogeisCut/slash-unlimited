@@ -7,7 +7,7 @@ import net.minecraft.commands.CommandBuildContext;
 
 public final class Slash_unlimited {
     public static final String MOD_ID = "slash_unlimited";
-
+    //TODO: remake this entire mod in some sort multiloader approach? im not a fan of having to install the extra apis for architectury
     public static void init() {
         // very lazy code
         CommandRegistrationEvent.EVENT.register((dispatcher, context, environment) -> {

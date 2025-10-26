@@ -6,12 +6,12 @@ license = "All Rights Reserved"
 [[mods]]
 modId = "slash_unlimited"
 version = "${version}"
-displayName = "slash_unlimited"
+displayName = "/unlimited"
 authors = "DogeisCut"
 description = '''
 Command limits no more.
 '''
-#logoFile = ""
+logoFile = "assets/slash_unlimited/icon.png"
 
 [[dependencies.slash_unlimited]]
 modId = "neoforge"
