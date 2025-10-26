@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "slash_unlimited",
+  "version": "${version}",
+  "name": "slash_unlimited",
+  "description": "Command limits no more.",
+  "authors": [
+    "DogeisCut"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/slash_unlimited/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.dogeiscut.slash_unlimited.fabric.Slash_unlimitedFabric"
+    ],
+    "client": [
+      "io.github.dogeiscut.slash_unlimited.fabric.client.Slash_unlimitedFabricClient"
+    ]
+  },
+  "mixins": [
+    "slash_unlimited.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  }
+}

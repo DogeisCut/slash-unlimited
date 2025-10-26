@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "io.github.dogeiscut.slash_unlimited.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "DismountSyncMixin",
+    "EntityDataAccessorAccessor",
+    "EntityDataAccessorMixin",
+    "RideCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
