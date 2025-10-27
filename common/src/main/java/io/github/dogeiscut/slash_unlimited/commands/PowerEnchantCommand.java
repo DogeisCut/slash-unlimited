@@ -32,7 +32,7 @@ public class PowerEnchantCommand {
 
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext context) {
         dispatcher.register(
-                (LiteralArgumentBuilder<CommandSourceStack>) Commands.literal("powerenchant")
+                Commands.literal("powerenchant")
                         .requires(source -> source.hasPermission(2))
                         .then(
                                 Commands.argument("targets", EntityArgument.entities())

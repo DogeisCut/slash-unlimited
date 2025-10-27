@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.dogeiscut.slash_unlimited.fabric.Slash_unlimitedFabric"
+      "io.github.dogeiscut.slash_unlimited.fabric.SlashUnlimitedFabric"
     ],
     "client": [
-      "io.github.dogeiscut.slash_unlimited.fabric.client.Slash_unlimitedFabricClient"
+      "io.github.dogeiscut.slash_unlimited.fabric.client.SlashUnlimitedFabricClient"
     ]
   },
   "mixins": [
@@ -28,7 +28,6 @@
     "fabricloader": ">=0.17.3",
     "minecraft": "~1.21.1",
     "java": ">=21",
-    "architectury": ">=13.0.8",
     "fabric-api": "*"
   }
 }
