@@ -16,7 +16,6 @@ public final class SlashUnlimitedNeoForge {
 
     @SubscribeEvent
     public static void onRegisterCommands(RegisterCommandsEvent event) {
-        System.out.println("[SlashUnlimited] Registering commands (NeoForge)...");
         SlashUnlimitedCommon.registerCommonCommands(event.getDispatcher(), event.getBuildContext());
     }
 }

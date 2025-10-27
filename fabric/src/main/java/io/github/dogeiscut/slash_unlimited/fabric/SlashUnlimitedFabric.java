@@ -13,7 +13,6 @@ public final class SlashUnlimitedFabric implements ModInitializer {
         SlashUnlimited.init();
 
         CommandRegistrationCallback.EVENT.register((dispatcher, buildContext, environment) -> {
-            System.out.println("[SlashUnlimited] Registering commands (Fabric)...");
             SlashUnlimitedCommon.registerCommonCommands(dispatcher, buildContext);
         });
     }
